@@ -51,14 +51,13 @@
   background: #000;
   border: 1px solid #b7d4a8;
 }
-.snake {
-  position: absolute;
+#snake {
+  /* position: absolute; */
 }
-.head {
+#snake>div{
   width: 10px;
   height: 10px;
   background: #000;
   position: absolute;
-}
-.snake_body {
+  border: 1px solid #b7d4a8;
 }

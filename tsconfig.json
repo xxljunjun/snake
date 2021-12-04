@@ -1,10 +1,18 @@
 {
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+  ],
     "compilerOptions": {
+      "jsx": "preserve",
     //   "outDir": "./dist/",
     //   "noImplicitAny": true,
-    //   "module": "es6",
-    //   "target": "es5",
+      "module": "es6",
+      "target": "es5",
     //   "jsx": "react",
-      "allowJs": true
+      // "allowJs": true
     }
   }

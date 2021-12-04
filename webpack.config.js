@@ -18,6 +18,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.scss'],
+  },
   //插件
   plugins: [
     //该snake游戏暂时不需要自动生成html
